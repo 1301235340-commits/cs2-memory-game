@@ -1,0 +1,32 @@
+body{
+    background-color: darkred;
+    font-family: fantasy;
+    text-align: center;
+
+}
+h1 {
+    font-size: 60px;
+}
+
+.card {
+    background-color: rgb(255, 0, 0);
+    color: brown;
+    width: 180px;
+    height: 180px;
+    border-radius: 20px;
+    font-size: 30px;
+    align-content: center;
+    user-select: none;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
