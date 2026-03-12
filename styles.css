@@ -9,8 +9,8 @@ h1 {
 }
 
 .card {
-    background-color: rgb(255, 0, 0);
-    color: brown;
+    background-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
     width: 180px;
     height: 180px;
     border-radius: 20px;
